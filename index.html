@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  
+</head>
+<body>
+    <div class="profile-card">
+        <img 
+            data-testid="profilePicture"
+            class="profile-picture"
+            src="profile-pic.jpg"
+            alt="Profile Picture"
+        >
+        <h1 data-testid="fullName" class="full-name">Silifat Yusuf</h1>
+        <h2 data-testid="jobTitle" class="job-title">Frontend Developer</h2>
+        
+        <p data-testid="shortBio" class="bio">
+            Passionate frontend developer with expertise in modern web technologies.
+            Dedicated to creating efficient, scalable solutions and committed to continuous learning.
+            Love turning complex problems into simple, beautiful, and intuitive solutions.
+        </p>
+
+        <div data-testid="currentLocation" class="info-item">
+            📍 Abuja, Nigeria
+        </div>
+
+        <div data-testid="emailAddress" class="info-item">
+            ✉️ silifatyusuf1511@gmail.com
+        </div>
+
+        <div data-testid="socialLinks" class="social-links">
+            <a href="http://www.linkedin.com/in/silifat-yusuf" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/NoelleCodes777" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/Noelle_Codes?t=2VNV6tdMRAwm7-_rpU_dJg&s=09" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div data-testid="currentTimeUTC" class="time">
+            Current UTC Time: <span id="utc-time"></span>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
